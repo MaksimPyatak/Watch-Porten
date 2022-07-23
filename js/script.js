@@ -14,3 +14,26 @@ $(document).ready(function() {
       $('.last_section__newsletter__open, ._section').toggleClass('active3');
    });
 });
+const swiper = new Swiper('.new_arrivals_watch_box__swiper-container', {
+   // Optional parameters
+   //direction: 'vertical',
+   //loop: true,
+   slidesPerView: 'auto',
+   // If we need pagination
+   //pagination: {
+   //  el: '.swiper-pagination',
+   //},
+ 
+   // Navigation arrows
+   navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+   },
+ 
+   // And if we need scrollbar
+   //scrollbar: {
+   //  el: '.swiper-scrollbar',
+   //},
+   //spaceBetween: 130,
+   centeredSlides: true,
+ });
